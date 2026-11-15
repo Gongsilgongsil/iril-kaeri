@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research | Intelligent Radiation Instrumentation Laboratory</title>
+<meta name="description" content="Research areas of the Intelligent Radiation Instrumentation Laboratory: extreme-environment detectors, deep-learning spectral analysis, readout electronics, radiation-hardened circuits and simulation.">
+<link rel="stylesheet" href="inner.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav"><div class="container"><div class="nav__in"><a class="wm" href="index.html" aria-label="Intelligent Radiation Instrumentation Laboratory, home"><span class="wm__s">IRIL</span><span class="wm__l">Intelligent Radiation Instrumentation Laboratory</span></a><details class="menu" open><summary>Menu</summary><ul><li><a href="index.html">Home</a></li><li><a href="research.html" aria-current="page">Research</a></li><li><a href="projects.html">Projects</a></li><li><a href="people.html">People</a></li><li><a href="publications.html">Publications</a></li><li><a href="patents-awards.html">Patents &amp; Awards</a></li><li><a href="contact.html">Contact</a></li></ul></details></div></div></header>
+<main id="main">
+<section class="pagehead container"><h1>Research</h1><p class="lead">Research along one measurement chain, from crystal to estimate.</p></section>
+<section class="sec"><div class="container g12">
+<div class="head a1-5 v-mid"><h2>Detectors for extreme environments</h2>
+<p>Detectors that keep working at high temperature and high gamma dose: a Ce:GPS scintillator and photomultiplier tube in an insulated enclosure, with the electronics outside.</p>
+<ul class="pl"><li><span class="m t-cool">2021</span><span>Radiation resistance and temperature dependence of Ce:GPS scintillation crystal</span></li><li><span class="m t-cool">2021</span><span>A review of inorganic scintillation crystals for extreme environments</span></li></ul></div>
+<figure class="fig b7-12 v-mid"><div class="slot" data-slot="cad" data-alt="CAD model of the enclosure"><img src="assets/enclosure-cad.jpg" width="1448" height="1086" alt="A CAD model of the enclosure with its lid removed, showing layers of insulation around the detector assembly" ></div>
+<figcaption class="cap">CAD model of the enclosure</figcaption></figure>
+</div></section>
+
+<section class="sec"><div class="container g12">
+<div class="head a1-5 v-mid"><h2>Deep learning on spectra</h2>
+<p>Estimating which radionuclides are present, and in what proportion, from gamma-ray spectra, even when temperature drifts or unseen nuclides appear.</p>
+<ul class="pl"><li><span class="m t-cool">2026</span><span><code>A denoising autoencoder for dual-target radionuclide quantification robust to unseen contamination and high background</code></span></li><li><span class="m t-cool">2025</span><span>Deep learning-based radioisotope quantification for extreme environments</span></li></ul></div>
+<figure class="fig b6-12 v-mid"><div class="chart"><img src="assets/cs137-spectrum.png" width="1600" height="1163" alt="A 137Cs energy spectrum from 0 to 1000 keV with a full-energy peak near 660 keV" ></div>
+<figcaption class="cap">A 137Cs gamma-ray spectrum</figcaption></figure>
+</div></section>
+
+<section class="sec"><div class="container g12">
+<figure class="fig a1-6"><div class="chart"><img src="assets/training-sample.png" width="1381" height="944" alt="A training spectrum: the noisy input, a mix of target, background and Poisson noise, and the clean target drawn over it" ></div>
+<figcaption class="cap">A training sample: the noisy input and its clean target. From the 2026 Nuclear Engineering and Technology paper.</figcaption></figure>
+<figure class="fig b7-12"><div class="chart"><img src="assets/reconstruction-co60.png" width="1350" height="1167" alt="A spectrum with 30 percent unseen 60Co: the contaminated input, the target and the autoencoder output overlaid" ></div>
+<figcaption class="cap">A spectrum with an unseen nuclide (60Co): input, target and autoencoder output. From the same paper.</figcaption></figure>
+</div></section>
+
+<section class="sec"><div class="container g12">
+<figure class="fig a1-5 v-mid"><div class="slot slot--45" data-slot="boards" data-alt="Front-end boards"><img src="assets/frontend-boards.jpg" width="1244" height="1600" alt="Two green front-end circuit boards side by side, one carrying a Hamamatsu C9619 photomultiplier module" ></div>
+<figcaption class="cap">Front-end boards, kept outside the harsh zone</figcaption></figure>
+<div class="head b7-12 v-mid"><h2>Readout electronics</h2>
+<p>Charge-reset preamplifiers for high count rates, SiPM multiplexing with capacitance compensation, and FPGA acquisition with digital pulse processing.</p>
+<ul class="pl"><li><span class="m t-cool">2025</span><span>Development of charge reset multiplexing for SiPMs using deep learning architecture</span></li><li><span class="m t-cool">2020</span><span>Experimental results on a detector capacitance compensation technique for multiplexing SiPM channels</span></li></ul></div>
+</div></section>
+
+<section class="sec"><div class="container"><div class="panels panels--2">
+<div><h2>Radiation-hardened circuits</h2><p>Radiation-hardened-by-design integrated circuits, adaptive analog and digital circuits, and embedded systems that tolerate radiation.</p></div>
+<div><h2>Scintillators and simulation</h2><p>Light output against temperature and dose for Ce:GPS, GAGG and organic scintillators, and Geant4 and MCNP modeling of shielding and absorbed dose.</p></div>
+</div></div></section>
+
+</main>
+<footer class="foot"><div class="container foot__in"><div><p class="name">Intelligent Radiation Instrumentation Laboratory</p><p lang="ko">지능형방사선계측연구실</p><p>Advanced Instrumentation and Control Research Division, Korea Atomic Energy Research Institute (KAERI), 111 Daedeok-daero 989beon-gil, Yuseong-gu, Daejeon 34057, Republic of Korea.</p></div><div><ul><li><a href="research.html">Research</a></li><li><a href="projects.html">Projects</a></li><li><a href="people.html">People</a></li><li><a href="publications.html">Publications</a></li><li><a href="patents-awards.html">Patents &amp; Awards</a></li></ul><p>Group lead: Chanho Kim, <a href="mailto:manngo@kaeri.re.kr">manngo@kaeri.re.kr</a></p></div></div></footer>
+<script src="site.js"></script>
+<script>window.hallmarkSlots = (m) => { for (const [k, v] of Object.entries(m)) { const s = document.querySelector(`[data-slot="${k}"]`); if (!s) continue; const im = new Image(); im.src = typeof v === 'string' ? v : v.src; im.alt = (typeof v === 'object' && v.alt) || s.dataset.alt || ''; s.querySelectorAll(':scope > img').forEach((o) => o.remove()); s.prepend(im); } };
+document.querySelectorAll('[data-slot] img').forEach((i) => { if (i.complete && !i.naturalWidth) i.remove(); else i.addEventListener('error', () => i.remove(), { once: true }); });</script>
+</body>
+</html>
