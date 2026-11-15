@@ -105,6 +105,7 @@ main { flex: 1; padding-bottom: var(--space-2xl); }
 .rows > li.person { display: grid; grid-template-columns: 7rem minmax(0, 1fr); align-items: start; }
 .pph { display: block; width: 7rem; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 2px; background: var(--color-paper-2); }
 span.pph { background: none; aspect-ratio: auto; height: 0; }
+.rows > li.person.person--plain { grid-template-columns: minmax(0, 1fr); }
 .pbody { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: var(--gap-columns); row-gap: var(--space-2xs); align-items: baseline; }
 .person .r1 { grid-column: 1 / span 4; } .person .r2 { grid-column: 5 / span 8; }
 @media (max-width: 50rem) { .rows > li.person { grid-template-columns: 5rem minmax(0, 1fr); } .pph { width: 5rem; } .rows > li.person > * { grid-column: auto !important; } .pbody > * { grid-column: 1 / -1 !important; } }
